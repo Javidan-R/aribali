@@ -1,0 +1,544 @@
+/******************************************
+    File Name: custom.css
+    /****************************************** */
+
+    /** ADD YOUR AWESOME CODES HERE **/
+    ::-webkit-input-placeholder { /* Chrome */
+      color: #333;opacity:1;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+      color: #333;opacity:1;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+      color: #333;opacity:1;
+  }
+  :-moz-placeholder { /* Firefox 4 - 18 */
+      color: #333;opacity:1;
+  }
+  ::-webkit-textarea-placeholder { /* Chrome */
+      color: #333;opacity:1;
+  }
+  :-ms-textarea-placeholder { /* IE 10+ */
+      color: #333;opacity:1;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+  @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+  @import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700');
+  * {font-family: 'Poppins', sans-serif;}
+  h1,h2,h3,h4,h5,h6 {font-family: 'Poppins', sans-serif;}
+  p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.header_style_01 .navbar-brand {
+    padding: 0;
+}
+header {
+    float: left;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background: #fff;
+    box-shadow: 0 20px 40px -40px #000;
+    top: 0;
+}
+#home.first-section {
+    position: relative;
+    min-height: 650px;
+}
+#home.first-section::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0);
+}
+.service-time {
+    float: left;
+    width: 100%;
+    min-height: 350px;
+    margin-top: -350px;
+    padding: 50px;
+    color: #fff;
+    position: relative;
+}
+.info-icon {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 75px;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.service-time h3 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: -5px 0 15px 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: none;
+}
+.service-time p {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+.service-time ul {
+    margin: 0;
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.service-time ul li {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: dashed 1px #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.service-time.middle::before {
+
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    background: transparent;
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+    border-bottom: solid transparent 65px;
+    border-right: solid #a0cff7 70px;
+    left: -70px;
+
+}
+
+.service-time.middle::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    background: transparent;
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+    border-bottom: solid transparent 65px;
+    border-left: solid #a0cff7 70px;
+    right: -70px;
+}
+
+.service-time.one {
+    position: relative;
+    z-index: 1;
+}
+.heading {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+.heading h2 {
+    font-size: 35px;
+    text-transform: none;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #333;
+    margin: 5px 0;
+    padding: 0;
+    position: relative;
+}
+.icon-logo img {
+    width: 60px;
+}   
+.heading h2::after {
+    width: 50px;
+    height: 4px;
+    background: #39b49b;
+    content: "";
+    display: block;
+    margin: 10px auto 0;
+}
+body.clinic_version .first-section {
+ padding: 1em 0;
+}
+.message-box .lead {
+    padding-top: 10px;
+    font-size: 16px;
+    font-style: normal;
+    color: #999;
+    padding-bottom: 0;
+    font-weight: 400;
+}
+.message-box1 .lead {
+    width: 100%;
+    padding-top: 10px;
+    font-size: 16px;
+    font-style: normal;
+    color: #999;
+    padding-bottom: 0;
+    font-weight: 400;
+}
+body.clinic_version .section {
+    padding: 90px 0;
+    float: left;
+    width: 100%;
+}
+.message-box p {
+    margin-bottom: 15px;
+}
+.message-box1 p {
+    margin-bottom: 15px;
+}
+.service-widget h3 {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 12px 0 12px;
+    margin: 0;
+    background: #157fda;
+    text-align: center;
+}
+hr.hr1 {
+    position: relative;
+    margin: 60px 0;
+    border: 1px dashed #f0f0f0;
+}
+.services {
+    width: 100%;
+    background: linear-gradient(to right, #1d86df 0%, #39b49a 100%);
+    padding: 75px 0;
+}
+.services {
+    width: 100%;
+    background: url("123456.jpg");
+    padding: 75px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    float:left;
+    width:100%;
+}
+.serv {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 25px 0px;
+}   
+.heading h2.white {
+    color: #fff;
+}
+.serv h4 {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    padding: 0;
+    margin: 5px 0 0;
+    float: left;
+    width: 100%;
+}
+.serv p {
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.icon-service {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.icon-service img {
+    width: 60px;
+}
+.inner-services {
+    float: left;
+    width: 100%;
+    margin: 30px 0;
+}
+.icon {
+    background: #fff;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #39b49b 3px;
+    background-size: cover;
+}
+.icon img {
+    width: 50px;
+    margin-top: 2px;
+}
+.typewrite {
+    font-size: 60px;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    text-shadow: 4px 3px 0 rgba(0,0,0,0.0);
+    letter-spacing: -1px;
+    font-weight: 400;
+    color:  #CCCC00;
+}
+.heading {
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.heading h2 {
+    font-size: 35px;
+    text-transform: none;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #333;
+    margin: 5px 0;
+    padding: 0;
+    position: relative;
+}
+.icon-logo img {
+    width: 60px;
+}	
+.heading h2::after {
+    width: 50px;
+    height: 4px;
+    background: #39b49b;
+    content: "";
+    display: block;
+    margin: 10px auto 0;
+}	
+.heading h2.white {
+    color: #fff;
+}
+.serv h4 {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    padding: 0;
+    margin: 5px 0 0;
+    float: left;
+    width: 100%;
+}
+#price.section {
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+#price.section .container .heading{
+    width: 100%;
+}
+body.clinic_version .tab-pane p {
+    margin-bottom: 0;
+    padding-top: 0;
+}
+.pricing-table-header h3 {
+    font-size: 15px;
+}
+.pricing-table strong {
+    font-weight: 400;
+}
+.pricing-table.pricing-table-highlighted {
+    margin-top: -15px;
+    border: solid #fff 5px;
+    transition: ease all 1s;
+}
+.pricing-table {
+    margin: 50px -10px 0;
+    background: #fff;
+    box-shadow: 0px 10px 25px -20px #000;
+}
+#price {
+    color: #666;
+}
+.header-bottom nav.main-menu {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    float: left;
+    width: 100%;
+}	
+.header-bottom nav.main-menu #navbar {
+    margin: ;
+}
+.header-bottom > nav.main-menu > #navbar .nav.navbar-nav {
+    margin-top: 0;
+}
+.header-bottom > nav.main-menu > ul.nav.navbar-nav > li a {
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 0;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+.header-bottom nav.main-menu ul.nav.navbar-nav > li a:hover, .header-bottom nav.main-menu ul.nav.navbar-nav > li a:focus, .header-bottom nav.main-menu ul.nav.navbar-nav > li a.active {
+    color: #222;
+    background: transparent;
+    box-shadow: none;
+}		
+.service-time {
+    float: left;
+    width: 100%;
+    min-height: auto;
+    margin-top: 25px;
+    padding: 35px 20px;
+    color: #fff;
+    position: relative;
+}
+#home.first-section {
+    position: relative;
+    min-height: auto;
+}	
+.service-time.middle::before {
+	display:none;
+}
+.service-time.middle::after {
+	display:none;
+}	
+.typewrite {
+    font-size: 28px;
+}
+.appointment-form {
+    padding: 15px;
+}	
+.heading{
+    width: 100%;
+}	
+.heading h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+.pricing-table-features {
+    padding: 0 10px 15px 30px;
+}
+.pricing-table-header h2 {
+    font-size: 23px;
+    font-weight: 400;
+}
+body.clinic_version .footer .widget-title h3 {
+    color: #fff;
+}
+.contact-section {
+    float: left;
+    width: 100%;
+    min-height: 450px;
+    background: #fee6f7;
+
+}
+.contact-section {
+    position:relative;
+}
+.form-contant {
+    float: left;
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    z-index: 1;
+    padding: 60px;
+}
+.form-contant input, .form-contant textarea {
+    background: transparent;
+    padding: 0;
+    border: none;
+    border-bottom: solid #fff 2px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.form-contant input:focus, .form-contant textarea:focus {
+    color:#fff;
+    border-color:#fff;
+}
+#wekil{
+    width: 100%; 
+    height: 20vh !important; 
+    margin-bottom: 50px;
+    background-size: cover;
+}
+
+.coruse-desc{
+    border-radius: 8px;
+    border: 1px solid   #aadffd   ;
+
+}
+.actions {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#submitButton {
+    padding: 15px 30px;
+    background: linear-gradient(to right, #1d86df 0%, #39b49a 100%);
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition:ease all 1s;
+}
+#submitButton:hover,#submitButton:focus {
+    background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+}
+.newsletter-form input {
+    display: inline-block;
+    height: 50px;
+    width: 80%;
+    padding: 5px 20px;
+    float: left;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+.newsletter-form .mc-submit {
+    height: 50px;
+    width: 20%;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #1d86df 0%, #39b49a 100%);
+    border: none;
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+.newsletter-form .mc-submit:hover,.newsletter-form .mc-submit:focus {
+    background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+

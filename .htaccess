@@ -1,0 +1,16 @@
+	RewriteEngine on
+
+RewriteRule ^index(\.html)$ index.php [L,NC]
+
+RewriteRule ^course(\.html)$ course.php [L,NC]
+
+RewriteRule ^photo(\.html)$ photo.php [L,NC]
+
+RewriteRule ^tedbirler(\.html)$ tedbirler.php [L,NC]
+
+RewriteRule ^photo-read-more-([a-zA-Z0-9\-_]+)?(\.html)$ photo-read-more.php?id=$1 [L,QSA]
+
+RewriteRule ^tedbir-etrafli-([a-zA-Z0-9\-_]+)?(\.html)$ tedbir-etrafli.php?id=$1 [L,QSA]
+
+
+ErrorDocument 404 http://localhost/dev/php/aribali/404.php
